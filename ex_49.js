@@ -8,8 +8,10 @@ function replaceChar(text){
 
   }
   //return array.slice(",").join();
-  var neArray = array.join();
-  return neArray.replace(',', '');
+  var neArray = array.join('');
+  return neArray;
 }
 
 console.log(replaceChar("abc"));
+
+console.log(replaceChar("ABc"));
